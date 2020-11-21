@@ -1,0 +1,67 @@
+/*Google fonts*/@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{ padding: 0; margin: 0;}
+form{ max-width: 25em; margin: 1em auto;}
+
+  .container {
+    position: fixed;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+    text-align: center;
+    background-color: grey;
+}
+
+.example_a {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: grey;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    }
+
+    .example_a:hover {
+        background: red;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+        }
+
+        .form__field {
+            font-family: inherit;
+            width: 100%;
+            border: 0;
+            border-bottom: 2px solid white;
+            outline: 0;
+            font-size: 1.3rem;
+            color: black;
+            padding: 7px 0;
+            background: white;
+            transition: border-color 0.2s;
+            margin-bottom: 10px;
+          }
+
+          .label__field {
+            font-family: inherit;
+            width: 100%;
+            border: 0;
+            border-bottom: 2px solid grey;
+            outline: 0;
+            font-size: 1.3rem;
+            color: white;
+            background: grey;
+            transition: border-color 0.2s;
+            margin: 10px 10px 10px;
+          }
+
+
+
+  
